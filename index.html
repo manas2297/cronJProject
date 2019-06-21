@@ -19,7 +19,7 @@
                 <div class="buttons"> <!--BUTTON SECTION-->
                     
                     <div class="btnC btnr1">
-                        <input type="button" value="C">
+                        <input type="button" value="C" onClick="reset()">
                     </div>
                     <div class="btnMod btnr1">
                         <input type="button" value="%">
@@ -28,55 +28,55 @@
                         <input type="button" value="+/-">
                     </div>
                     <div class="btnD btnr1">
-                        <input type="button" value="/">
+                        <input type="button" value="/" onclick="inputNumber(value)">
                     </div>
                     <div class="btn7 btnr2">
-                        <input type="button" value="7">
+                        <input type="button" value="7" onclick="inputNumber(value)">
                     </div>
                     <div class="btn8 btnr2">
-                        <input type="button" value="8">
+                        <input type="button" value="8" onclick="inputNumber(value)">
                     </div>
                     <div class="btn9 btnr2">
-                        <input type="button" value="9">
+                        <input type="button" value="9" onclick="inputNumber(value)">
                     </div>
                     <div class="btnX btnr1">
-                            <input type="button" value="X">
+                            <input type="button" value="*" onclick="inputNumber(value)">
                         </div> 
                     <div class="btn4 btnr2">
-                        <input type="button" value="4">
+                        <input type="button" value="4" onclick="inputNumber(value)">
                     </div>
                     <div class="btn5 btnr2">
-                        <input type="button" value="5">
+                        <input type="button" value="5" onclick="inputNumber(value)">
                     </div>
                     <div class="btn6 btnr2">
-                        <input type="button" value="6">
+                        <input type="button" value="6" onclick="inputNumber(value)">
                     </div>
                     <div class="btnM btnr1">
-                        <input type="button" value="-">
+                        <input type="button" value="-" onclick="inputNumber(value)">
                     </div>
                     <div class="btn1 btnr2">
-                        <input type="button" value="1">
+                        <input type="button" value="1" onclick="inputNumber(value)">
                     </div>
                     <div class="btn2 btnr2">
-                        <input type="button" value="2">
+                        <input type="button" value="2" onclick="inputNumber(value)">
                     </div>
                     <div class="btn3 btnr2">
-                        <input type="button" value="3">
+                        <input type="button" value="3" onclick="inputNumber(value)">
                     </div>
                     <div class="btnA btnr1">
-                        <input type="button" value="+">
+                        <input type="button" value="+" onclick="inputNumber(value)">
                     </div>
                     <div class="btnDecimal btnr2">
                         <input type="button" value=".">
                     </div>
                     <div class="btn0 btnr2">
-                        <input type="button" value="0">
+                        <input type="button" value="0" onclick="inputNumber(value)">
                     </div>
                     <div class="btnBack btnr2">
                         <input type="button" value="<">
                     </div>
                     <div class="btnE btnr1">
-                        <input type="button" value="=">
+                        <input type="button" value="=" onclick="calculate()">
                     </div>                               
         
                 </div>
@@ -87,5 +87,7 @@
 
         
 </div>
+
+<script src="js/calculator.js"></script>
 </body>
 </html>
